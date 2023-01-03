@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    /* background: greenyellow; */
+    width: 80px;
+    /* height: 200px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function:cubic-bezier(cubic-bezier(0,.91,.99,.11));
+    transition-timing-function:ease-in;
+    transition: all .5s ease-in .5s; */
+
+}
+/* div:hover{
+    border-radius: 50%;
+    background-color: chocolate;
+
+} */
+input{
+    width: 150px;
+    padding: 20px;
+    transition: width 0.5s ease-in;
+
+}
+input:focus{
+    width: 500px;
+
+}
